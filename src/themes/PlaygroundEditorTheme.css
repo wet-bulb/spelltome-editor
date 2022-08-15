@@ -26,7 +26,7 @@
   margin-left: 20px;
   margin-bottom: 10px;
   font-size: 15px;
-  color: rgb(101, 103, 107);
+  color: #fff;
   border-left-color: rgb(206, 208, 212);
   border-left-width: 4px;
   border-left-style: solid;
@@ -34,7 +34,7 @@
 }
 .PlaygroundEditorTheme__h1 {
   font-size: 24px;
-  color: rgb(5, 5, 5);
+  color:#fff;
   font-weight: 400;
   margin: 0;
   margin-bottom: 12px;
@@ -42,7 +42,7 @@
 }
 .PlaygroundEditorTheme__h2 {
   font-size: 15px;
-  color: rgb(101, 103, 107);
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 700;
   margin: 0;
   margin-top: 10px;
@@ -80,24 +80,24 @@
   vertical-align: super;
 }
 .PlaygroundEditorTheme__textCode {
-  background-color: rgb(240, 242, 245);
+  background-color: #303030;
   padding: 1px 0.25rem;
   font-family: Menlo, Consolas, Monaco, monospace;
   font-size: 94%;
 }
 .PlaygroundEditorTheme__hashtag {
-  background-color: rgba(88, 144, 255, 0.15);
-  border-bottom: 1px solid rgba(88, 144, 255, 0.3);
+  background-color: rgba(69, 126, 60, 0.15);
+  border-bottom: 1px solid rgba(69, 126, 60, 0.6);
 }
 .PlaygroundEditorTheme__link {
-  color: rgb(33, 111, 219);
+  color: rgb(117, 60, 126);
   text-decoration: none;
 }
 .PlaygroundEditorTheme__link:hover {
   text-decoration: underline;
 }
 .PlaygroundEditorTheme__code {
-  background-color: rgb(240, 242, 245);
+  background-color: #303030;
   font-family: Menlo, Consolas, Monaco, monospace;
   display: block;
   padding: 8px 8px 8px 52px;
@@ -114,12 +114,12 @@
 .PlaygroundEditorTheme__code:before {
   content: attr(data-gutter);
   position: absolute;
-  background-color: #eee;
+  background-color: #303030;
   left: 0;
   top: 0;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid rgb(69, 126, 60);
   padding: 8px;
-  color: #777;
+  color: rgba(255, 255, 255, 0.7);
   white-space: pre-wrap;
   text-align: right;
   min-width: 25px;
@@ -132,7 +132,7 @@
   font-size: 10px;
   text-transform: uppercase;
   position: absolute;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 .PlaygroundEditorTheme__table {
   border-collapse: collapse;
@@ -143,14 +143,14 @@
   width: 100%;
 }
 .PlaygroundEditorTheme__tableCell {
-  border: 1px solid black;
+  border: 1px solid #fff;
   padding: 6px 8px;
   min-width: 75px;
   vertical-align: top;
   text-align: start;
 }
 .PlaygroundEditorTheme__tableCellHeader {
-  background-color: #f2f3f5;
+  background-color: #303030;
   text-align: start;
 }
 .PlaygroundEditorTheme__characterLimit {
@@ -228,12 +228,6 @@
 .PlaygroundEditorTheme__listItemChecked:focus:before {
   box-shadow: 0 0 0 2px #a6cdfe;
   border-radius: 2px;
-}
-.PlaygroundEditorTheme__listItemUnchecked:before {
-  background-image: url(/src/images/icons/square.svg);
-}
-.PlaygroundEditorTheme__listItemChecked:before {
-  background-image: url(/src/images/icons/square-check.svg);
 }
 .PlaygroundEditorTheme__nestedListItem {
   list-style-type: none;
