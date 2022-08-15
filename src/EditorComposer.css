@@ -469,7 +469,7 @@ select.font-family {
   outline: none;
 }
 
-.block-controls {
+#block-controls {
   display: block;
   position: absolute;
   right: 10px;
@@ -484,7 +484,7 @@ select.font-family {
   overflow: hidden;
 }
 
-.block-controls button {
+#block-controls button {
   border: 1px solid white;
   background-color: #303030;
   display: block;
@@ -495,15 +495,15 @@ select.font-family {
   padding: 3px;
 }
 
-.block-controls button:hover {
+#block-controls button:hover {
   background-color: rgb(130, 195, 119) ;
 }
 
-.block-controls button:focus-visible {
+#block-controls button:focus-visible {
   border-color: #a856b5;
 }
 
-.block-controls span.block-type {
+#block-controls span.block-type {
   background-size: contain;
   display: block;
   width: 18px;
@@ -511,31 +511,31 @@ select.font-family {
   margin: 2px;
 }
 
-.block-controls span.block-type.paragraph {
+#block-controls span.block-type.paragraph {
   background-image: url(images/icons/text-paragraph.svg);
 }
 
-.block-controls span.block-type.h1 {
+#block-controls span.block-type.h1 {
   background-image: url(images/icons/type-h1.svg);
 }
 
-.block-controls span.block-type.h2 {
+#block-controls span.block-type.h2 {
   background-image: url(images/icons/type-h2.svg);
 }
 
-.block-controls span.block-type.quote {
+#block-controls span.block-type.quote {
   background-image: url(images/icons/chat-square-quote.svg);
 }
 
-.block-controls span.block-type.ul {
+#block-controls span.block-type.ul {
   background-image: url(images/icons/list-ul.svg);
 }
 
-.block-controls span.block-type.ol {
+#block-controls span.block-type.ol {
   background-image: url(images/icons/list-ol.svg);
 }
 
-.block-controls span.block-type.code {
+#block-controls span.block-type.code {
   background-image: url(images/icons/code.svg);
 }
 
