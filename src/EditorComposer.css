@@ -511,31 +511,31 @@ select.font-family {
   margin: 2px;
 }
 
-.block-controls span.block-type.paragraph {
+.paragraph {
   background-image: url(images/icons/text-paragraph.svg);
 }
 
-.block-controls span.block-type.h1 {
+#block-controls span.block-type.h1 {
   background-image: url(images/icons/type-h1.svg);
 }
 
-.block-controls span.block-type.h2 {
+.h2 {
   background-image: url(images/icons/type-h2.svg);
 }
 
-.block-controls span.block-type.quote {
+.quote {
   background-image: url(images/icons/chat-square-quote.svg);
 }
 
-.block-controls span.block-type.ul {
+.ul {
   background-image: url(images/icons/list-ul.svg);
 }
 
-.block-controls span.block-type.ol {
+.ol {
   background-image: url(images/icons/list-ol.svg);
 }
 
-.block-controls span.block-type.code {
+.code {
   background-image: url(images/icons/code.svg);
 }
 
